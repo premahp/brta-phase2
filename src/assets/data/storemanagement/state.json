@@ -1,0 +1,201 @@
+[{
+    "lookupCode": "AL",
+    "description": "Alabama - AL"
+},
+{
+    "lookupCode": "AK",
+    "description": "Alaska - AK"
+},
+{
+    "lookupCode": "AZ",
+    "description": "Arizona - AZ"
+},
+{
+    "lookupCode": "AR",
+    "description": "Arkansas - AR"
+},
+{
+    "lookupCode": "CA",
+    "description": "California - CA"
+},
+{
+    "lookupCode": "CO",
+    "description": "Colorado - CO"
+},
+{
+    "lookupCode": "CT",
+    "description": "Connecticut - CT"
+},
+{
+    "lookupCode": "DE",
+    "description": "Delaware - DE"
+},
+{
+    "lookupCode": "FL",
+    "description": "Florida - FL"
+},
+{
+    "lookupCode": "GA",
+    "description": "Georgia - GA"
+},
+{
+    "lookupCode": "HI",
+    "description": "Hawaii - HI"
+},
+{
+    "lookupCode": "ID",
+    "description": "Idaho - ID"
+},
+{
+    "lookupCode": "IL",
+    "description": "Illinois - IL"
+},
+{
+    "lookupCode": "IN",
+    "description": "Indiana - IN"
+},
+{
+    "lookupCode": "IA",
+    "description": "Iowa - IA"
+},
+{
+    "lookupCode": "KS",
+    "description": "Kansas - KS"
+},
+{
+    "lookupCode": "KY",
+    "description": "Kentucky - KY"
+},
+{
+    "lookupCode": "LA",
+    "description": "Louisiana - LA"
+},
+{
+    "lookupCode": "ME",
+    "description": "Maine - ME"
+},
+{
+    "lookupCode": "MD",
+    "description": "Maryland - MD"
+},
+{
+    "lookupCode": "MA",
+    "description": "Massachusetts - MA"
+},
+{
+    "lookupCode": "MI",
+    "description": "Michigan - MI"
+},
+{
+    "lookupCode": "MN",
+    "description": "Minnesota - MN"
+},
+{
+    "lookupCode": "MS",
+    "description": "Mississippi - MS"
+},
+{
+    "lookupCode": "MO",
+    "description": "Missouri - MO"
+},
+{
+    "lookupCode": "MT",
+    "description": "Montana - MT"
+},
+{
+    "lookupCode": "NE",
+    "description": "Nebraska - NE"
+},
+{
+    "lookupCode": "NV",
+    "description": "Nevada - NV"
+},
+{
+    "lookupCode": "NH",
+    "description": "New Hampshire - NH"
+},
+{
+    "lookupCode": "NJ",
+    "description": "New Jersey - NJ"
+},
+{
+    "lookupCode": "NM",
+    "description": "New Mexico - NM"
+},
+{
+    "lookupCode": "NY",
+    "description": "New York - NY"
+},
+{
+    "lookupCode": "NC",
+    "description": "North Carolina - NC"
+},
+{
+    "lookupCode": "ND",
+    "description": "North Dakota - ND"
+},
+{
+    "lookupCode": "OH",
+    "description": "Ohio - OH"
+},
+{
+    "lookupCode": "OK",
+    "description": "Oklahoma - OK"
+},
+{
+    "lookupCode": "OR",
+    "description": "Oregon - OR"
+},
+{
+    "lookupCode": "PA",
+    "description": "Pennsylvania - PA"
+},
+{
+    "lookupCode": "RI",
+    "description": "Rhode Island - RI"
+},
+{
+    "lookupCode": "SC",
+    "description": "South Carolina - SC"
+},
+{
+    "lookupCode": "SD",
+    "description": "South Dakota - SD"
+},
+{
+    "lookupCode": "TN",
+    "description": "Tennessee - TN"
+},
+{
+    "lookupCode": "TX",
+    "description": "Texas - TX"
+},
+{
+    "lookupCode": "UT",
+    "description": "Utah - UT"
+},
+{
+    "lookupCode": "VT",
+    "description": "Vermont - VT"
+},
+{
+    "lookupCode": "VA",
+    "description": "Virginia - VA"
+},
+{
+    "lookupCode": "WA",
+    "description": "Washington  - WA"
+},
+{
+    "lookupCode": "WV",
+    "description": "West Virginia - WV"
+},
+{
+    "lookupCode": "WI",
+    "description": "Wisconsin - WI"
+},
+{
+    "lookupCode": "WY",
+    "description": "Wyoming - WY"
+}
+]

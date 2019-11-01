@@ -1,0 +1,113 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+.dropdownList{
+    display: inline-flex;
+    width: 100%;
+    background: white;
+    background-image:url('./assets/images/background_Container.png') ;
+    background-repeat:no-repeat;
+    border-radius: 3px;
+    overflow: hidden;
+    background-size: cover;
+    
+}
+.dropdownList, h4{
+  color: white;
+}
+table {
+    width: 100%;
+  }
+ body{ 
+    background-image:url('./assets/images/content_BG.jpg') ;
+    background-repeat:no-repeat;
+  } 
+  
+  body { 
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .basic-container {
+    padding: 30px;
+  }
+  
+  .version-info {
+    font-size: 8pt;
+    float: right;
+  }
+  mat-header-row, mat-row{
+   width: 100%
+  }  
+  
+.tab_heading ul{
+  padding-top: 1px;
+  margin-left: 3%;
+  margin-bottom: 0px;
+}
+.tab_heading ul li{
+display:inline-block;
+}
+.tab_heading > ul > li a{
+padding: 0.8% 20px;
+margin: 0;
+text-align: center;
+color: #8a897e;
+font-size: 16px;
+text-transform: uppercase;
+/* height: 7%;*/
+vertical-align: middle;
+background-color:white;
+display: inline-block;
+font-weight: 600;
+position: relative;
+line-height: 40px;
+-moz-transition: 0.5s;
+-webkit-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+border-radius:3px 3px 0 0px;
+}
+.tab_heading > ul > li.active a{
+
+font-family: 'FoundrySterling-Bold';
+color: #FFFFFF;
+background-color: #016840;
+border-bottom: 4px solid #FECB00;
+}
+.tab_heading{
+background: white;
+/* margin-top: -3.8%; //added by me on 27/2/2019 */
+/*margin-top:101px;//added by me on 14/3/2019*/
+}
+.mat-form-field-flex{
+  background: white;
+  border-radius: 2px;
+}
+.dropdown-list{
+  padding: 5px;
+}
+.mat-form-field-appearance-legacy .mat-form-field-infix{
+  width: 230px;
+}
+.mat-input-element{
+  color: black !important;
+}
+/* .ui-table{
+  position: inherit !important;
+}
+.ui-table-caption{
+  position: absolute;
+  top: 15%;
+  right: 0px;
+  border: 0px solid #c8c8c8 !important;
+  background: none !important;
+  padding: 0px !important;
+  text-align: right !important;
+}
+.search_tab{
+  width: 70% !important;
+  padding: 6px;
+} */

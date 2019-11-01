@@ -1,0 +1,121 @@
+
+
+<div class="dropdownList">
+    <div class="dropdown-list">
+        <h4>Customer</h4>
+        <mat-form-field>
+          <mat-label>Customer</mat-label>
+          <mat-select [(ngModel)]="customer" (selectionChange)="getBuyCustomerDetails(customer)">
+            <!-- <mat-option>None</mat-option> -->
+            <mat-option *ngFor="let customer of customers" [value]="customer" >{{customer.customerName}} </mat-option>
+          </mat-select>
+        </mat-form-field>
+    </div>
+    
+        <div class="dropdown-list">
+            <h4>State</h4>
+            <mat-form-field>
+              <mat-label>State</mat-label>
+              <mat-select [(ngModel)]="state">
+                <!-- <mat-option>None</mat-option> -->
+                <mat-option *ngFor="let state of states" [value]="state.lookupCode">{{state.description}} </mat-option>
+              </mat-select>
+            </mat-form-field>
+        </div>
+
+        <div class="dropdown-list">
+            <h4>Start Date</h4>
+            <mat-form-field >
+                <input matInput [matDatepicker]="pickerStart" placeholder="Choose a date" [(ngModel)]="startDate">
+                <mat-datepicker-toggle matSuffix [for]="pickerStart"></mat-datepicker-toggle>
+                <mat-datepicker #pickerStart></mat-datepicker>
+            </mat-form-field>
+        </div>
+
+        <div class="dropdown-list">
+            <h4>End Date</h4>
+            <mat-form-field>
+                <input matInput [matDatepicker]="pickerEnd" placeholder="Choose a date" [(ngModel)]="endDate">
+                <mat-datepicker-toggle matSuffix [for]="pickerEnd"></mat-datepicker-toggle>
+                <mat-datepicker #pickerEnd></mat-datepicker>
+            </mat-form-field>
+        </div>
+
+        <div class="dropdown-list">
+                <h4><br></h4>
+            <input type="submit" class="btn btn-success btn-lg" style="padding: 7px 15px" placeholder="Submit" (click)="getAllCustomerSites_post(customer,state,startDate,endDate)">
+        </div>
+
+</div>
+<div style="background: white">
+  <p>Super power boost: {{2 | personName: 20}}</p>
+  <p>The hero's birthday is {{ birthday | date }}</p>
+  <p-table #tt [columns]="cols" [value]="dataSource" [paginator]="true" [rows]="10">
+      <ng-template pTemplate="caption">
+          <!-- <i class="fa fa-search" style="margin:15px 4px 0 0"></i> -->
+          <input type="text" pInputText size="50" placeholder="Search" (input)="tt.filterGlobal($event.target.value, 'contains')" class="search_tab">
+      </ng-template>
+    <ng-template pTemplate="header" let-columns>
+        <tr>
+            <th *ngFor="let col of columns"  [pSortableColumn]="col.field">
+                {{col.header}}
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-columns="columns">
+        <tr>
+            <td *ngFor="let col of columns">
+                    {{rowData[col.field]}}
+            </td>
+        </tr>
+    </ng-template>
+</p-table>
+  <!-- <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+   
+  <ng-container matColumnDef="select">
+    <th mat-header-cell *matHeaderCellDef>
+      <mat-checkbox (change)="$event ? masterToggle() : null"
+                    [checked]="selection.hasValue() && isAllSelected()"
+                    [indeterminate]="selection.hasValue() && !isAllSelected()"
+                    [aria-label]="checkboxLabel()">
+      </mat-checkbox>
+    </th>
+    <td mat-cell *matCellDef="let row">
+      <mat-checkbox (click)="$event.stopPropagation()"
+                    (change)="$event ? selection.toggle(row) : null"
+                    [checked]="selection.isSelected(row)"
+                    [aria-label]="checkboxLabel(row)">
+      </mat-checkbox>
+    </td>
+  </ng-container>
+    <ng-container matColumnDef="customerName">
+      <th mat-header-cell *matHeaderCellDef>Customer </th>
+      <td mat-cell *matCellDef="let element"> {{element.customerName}} </td>
+    </ng-container>
+    <ng-container matColumnDef="siteName">
+      <th mat-header-cell *matHeaderCellDef> Store </th>
+      <td mat-cell *matCellDef="let element"> {{element.siteName}} </td>
+    </ng-container>
+  
+   
+    <ng-container matColumnDef="address">
+      <th mat-header-cell *matHeaderCellDef> Address </th>
+      <td mat-cell *matCellDef="let element"> {{element.address}} </td>
+    </ng-container>
+  
+    
+    <ng-container matColumnDef="address3">
+      <th mat-header-cell *matHeaderCellDef> Data Configuration </th>
+      <td mat-cell *matCellDef="let element"> {{element.address3}} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table> -->
+  
+  
+  
+  <!-- Copyright 2019 Google Inc. All Rights Reserved.
+      Use of this source code is governed by an MIT-style license that
+      can be found in the LICENSE file at http://angular.io/license -->
+</div>

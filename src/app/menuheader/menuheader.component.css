@@ -1,0 +1,74 @@
+.headerName{
+    background: #016840;
+    padding: 20px;
+}
+.menucss{
+    background: #78BB52;
+    border: none;
+    height: 53px;
+}
+.header-height{
+    background:white;
+    height: 53px;
+}
+.app_logo{
+padding: 0px 10px 0px 10px;
+}
+.app_name{
+display: inline;
+}
+.ContentMainContainer{
+       
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;		
+    
+    top: 53px;
+}
+.containerHomeHeader{
+    background: #016840;  
+    color: white;
+    height: 53px;
+    padding: 11px;
+}
+
+.containerHomeHeaderheadings{
+    display: inline;
+    padding :5px;
+}
+.HomeIconForStore{
+    color: white;
+    cursor: pointer;
+}
+
+/* 
+.headerContainer {
+    width: 100%;
+    overflow: hidden;
+    height: 53px;
+}
+.HeaderTopLayer {
+    width: 100%;
+    padding: 0 7%;
+    height:1%;
+margin: auto;
+}
+.HeaderTopLayer .logo {  
+    padding-top: 6px;    
+    padding-top: 1%;
+    float:left;
+}
+.page-title {    
+    font-size: 23px;
+    float: left;
+    margin: 10px 0 0 23px;
+    
+    font-weight: bold;
+}
+
+
+ */

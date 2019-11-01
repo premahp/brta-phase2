@@ -1,0 +1,48 @@
+
+<div  class="header-height">
+  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu" class="menucss">
+      <!-- <mat-icon>more_vert</mat-icon> -->
+      <span> <img src="./assets/images/menu.png" style=" width: 100%;padding: 15px"></span>
+    </button>
+    <img src="./assets/images//Waste_Management_Logo.png" class="app_logo">
+    <span><h3  class="app_name">Bale Route Tracking </h3><small style="font-size:50%">v=1.98</small></span>
+
+</div>
+
+<div>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>dialpad</mat-icon>
+      <span><a [routerLink]="'/storemanagement'"> Store management </a></span>
+    </button>
+    <button mat-menu-item disabled>
+      <mat-icon>dialpad</mat-icon>
+      <span><a [routerLink]="'/usermanagement'"> User management </a></span>
+    </button>
+    <button mat-menu-item>
+        <mat-icon>dialpad</mat-icon>
+        <span><a [routerLink]="'/incidentmanagement'"> Incident management </a></span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>dialpad</mat-icon>
+        <span><a [routerLink]="'/balepickup'"> Balepickup </a></span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>dialpad</mat-icon>
+        <span><a [routerLink]="'/reportmanagement'"> Report management </a></span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>dialpad</mat-icon>
+        <span>Logout</span>
+      </button>
+    
+  </mat-menu>
+</div>
+<div class="ContentMainContainer containerHomeHeader" >
+	<h3 class="containerHomeHeaderheadings">
+		<a  ng-click="redirect()" class="HomeIconForStore"><i class="glyphicon glyphicon-home" aria-hidden="true" style="margin-left: 7%"></i></a>
+	</h3>
+	<h4 class="containerHomeHeaderheadings containerHomeHeaderheadingsFont"><a  ng-click="redirect()" class=" HomeIconForStore">Home</a>&nbsp;&nbsp;></h4>
+	<h5 class="containerHomeHeaderheadings containerMiniHeaderheadingsFont">Incident Management </h5>
+</div>
+<app-tabs></app-tabs>

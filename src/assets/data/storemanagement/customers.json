@@ -1,0 +1,73 @@
+[{
+	"customerId": 2,
+	"customerName": "KMART CORPORATION",
+	"legacyVendorId": null,
+	"customerStateId": 1,
+	"createdDate": 1524735960000,
+	"updatedAt": 1543990800000,
+	"updatedBy": "BRTA_ETL"
+}, {
+	"customerId": 3,
+	"customerName": "SEARS ROEBUCK AND COMPANY",
+	"legacyVendorId": null,
+	"customerStateId": 1,
+	"createdDate": 1524735960000,
+	"updatedAt": 1543990800000,
+	"updatedBy": "BRTA_ETL"
+}, {
+	"customerId": 532,
+	"customerName": "WAL MART",
+	"legacyVendorId": "61298",
+	"customerStateId": 1,
+	"createdDate": 1511428200000,
+	"updatedAt": 1543990800000,
+	"updatedBy": "BRTA_ETL"
+}, {
+	"customerId": 665,
+	"customerName": "DOLLAR TREE BALE ROUTES",
+	"legacyVendorId": "67321",
+	"customerStateId": 1,
+	"createdDate": 1524735960000,
+	"updatedAt": 1543990800000,
+	"updatedBy": "BRTA_ETL"
+}, {
+	"customerId": 723,
+	"customerName": "TARGET CORPORATION",
+	"legacyVendorId": "67312",
+	"customerStateId": 1,
+	"createdDate": 1538569260000,
+	"updatedAt": 1543990800000,
+	"updatedBy": "BRTA_ETL"
+}, {
+	"customerId": 741,
+	"customerName": "FAMILY DOLLAR BALE ROUTES",
+	"legacyVendorId": "67313",
+	"customerStateId": 1,
+	"createdDate": 1524735960000,
+	"updatedAt": 1543990800000,
+	"updatedBy": "BRTA_ETL"
+}, {
+	"customerId": 1662,
+	"customerName": "AT HOME STORES LLC",
+	"legacyVendorId": null,
+	"customerStateId": 1,
+	"createdDate": 1524735960000,
+	"updatedAt": 1543990800000,
+	"updatedBy": "BRTA_ETL"
+}, {
+	"customerId": 1778,
+	"customerName": "LOWE'S COMPANIES INC",
+	"legacyVendorId": null,
+	"customerStateId": 1,
+	"createdDate": 1524735960000,
+	"updatedAt": 1543990800000,
+	"updatedBy": "BRTA_ETL"
+}, {
+	"customerId": 2084,
+	"customerName": "JO-ANN STORES LLC",
+	"legacyVendorId": null,
+	"customerStateId": 1,
+	"createdDate": 1524735960000,
+	"updatedAt": 1543990800000,
+	"updatedBy": "BRTA_ETL"
+}]
