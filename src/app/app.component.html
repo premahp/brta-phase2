@@ -3,13 +3,14 @@
 <div >
     <router-outlet></router-outlet>
 </div>
-<!-- <app-login></app-login> -->
+<!-- setters -->
+<h2>Master controls {{names.length}} names</h2>
+<app-incidentmanagement *ngFor="let name of names" [name]="name" style="color:white"></app-incidentmanagement>
+
+
+<!-- parent to child communication -->
+<!-- <app-incidentmanagement style="color:white" *ngFor="let star of heroes" [star]="star" [name]="name" [master]="master"></app-incidentmanagement> -->
 </div>
-<!-- <app-storagemanagement></app-storagemanagement>
-<app-usermanagement></app-usermanagement>
-<app-incidentmanagement></app-incidentmanagement>
-<app-balepickup></app-balepickup>
-<app-reportmanagement></app-reportmanagement> -->
 
 
 

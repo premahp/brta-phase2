@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Bale Route App';
+  heroes : {name:string, age:number}[]= [
+    {"name":"prema", "age":6},
+    {"name":"kusuma","age":6},
+    {"name":"soma","age":6}
+  ]
+  master = 'Master';
+  names = ["prema", " ", "ff", ""];
 }
